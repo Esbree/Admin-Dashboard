@@ -36,4 +36,50 @@
 
 .main {
   background-color: white;
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-inline: 30px;
+  margin-top: 25px;
+}
+
+.form-input {
+  width: 500px;
+  height: 30px;
+  background-color: rgb(228, 228, 228); 
+  border-radius: 16px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.bell-icon {
+  margin-left: auto;
+}
+
+.navbar > img {
+  margin-inline: 50px;
+}
+
+.navbar > h5 {
+  font-size: 1.2rem;
+}
+
+.welcome {
+
+}
+
+.main-grid {
+  background-color: rgb(228, 228, 228); 
 }
