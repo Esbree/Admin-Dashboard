@@ -113,11 +113,15 @@ button {
   margin-inline: 20px;
 }
 
+/*-----MAIN GRID-----*/
+
 .main-grid {
   background-color: rgb(228, 228, 228);
   display: grid;
   grid-template-columns: 70% 30%;
 }
+
+/*-----PEOJECTS-----*/
 
 .projects {
   grid-column: 1 / 2;
@@ -148,6 +152,8 @@ button {
 .card > h4 {
   margin-bottom: 10px;
 }
+
+/*-----ANN AND TRENDS-----*/
 
 .ann-trend {
   padding: 20px;
